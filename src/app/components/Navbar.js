@@ -9,10 +9,14 @@ const Navnavbar = (props) => {
         width: '1296px',
         height: '94.0999984741211px',
         display: 'flex',
-        position: 'relative',
+        position: 'fixed',
+        top:'0%',
+        zIndex: '100',
         alignItems: 'center',
         flexShrink: '0',
         justifyContent: 'center',
+        background: 'white',
+        boxShadow : ' 0 2px 4px rgba(0, 0, 0, 0.1)',
       }}
     >
       <div

@@ -12,6 +12,7 @@ const Herosection = (props) => {
         position: 'relative',
         alignItems: 'flex-start',
         flexShrink: '0',
+        marginTop: '200px',
       }}
     >
       <div
@@ -23,7 +24,7 @@ const Herosection = (props) => {
           display: 'flex',
           position: 'absolute',
           alignItems: 'flex-start',
-          flexShrink: '0',
+          
         }}
       >
         <input
