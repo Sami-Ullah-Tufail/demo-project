@@ -10,9 +10,8 @@ export default function Home() {
   <Navnavbar />
   <Herosection />
   <Divfilterwrapper />
-  <div className=" flex flex-row content-between mt-10">
+  <div className=" flex flex-row content-between mt-10 sticky">
     <SideBar />
-    <Cards />
     <Cards />
   </div>
   </>

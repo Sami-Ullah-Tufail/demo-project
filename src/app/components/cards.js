@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Cards = () => {
-  return (
-    <div>
 
+const Cards = () => {
+     const cardsArray = [1,2,3,4,5,6,7,8];
+  return (
+    <div className="grid grid-cols-2 grid-rows-5 gap-4 " >
+   {cardsArray.map(cardNumber => (
     <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-10">
         <a href="#">
             <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
@@ -21,6 +23,7 @@ const Cards = () => {
             </a>
         </div>
     </div>
+     ))}
     </div>
   )
 }

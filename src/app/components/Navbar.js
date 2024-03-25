@@ -9,7 +9,7 @@ const Navnavbar = (props) => {
         width: '1296px',
         height: '94.0999984741211px',
         display: 'flex',
-        position: 'fixed',
+        position: 'sticky',
         top:'0%',
         zIndex: '100',
         alignItems: 'center',
